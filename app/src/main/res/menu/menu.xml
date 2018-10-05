@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/about"
+    android:title="ABOUT"
+    android:orderInCategory="2"
+    android:icon="@drawable/ic_action_info" />
+
+<item
+     android:id="@+id/help"
+    android:title="HELP"
+    android:orderInCategory="4"
+    android:icon="@drawable/ic_action_help"
+    />
+    <item
+        android:title="SETTINGS"
+        android:orderInCategory="5"
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_action_settings"/>
+    <item
+        android:icon="@drawable/ic_action_name"
+        android:id="@+id/name"
+        android:orderInCategory="1"
+        android:title="NAME"/>
+    <item
+        android:title="Reload"
+        android:orderInCategory="3"
+        android:id="@+id/reload"
+        android:icon="@drawable/ic_action_reload"/>
+
+
+</menu>
